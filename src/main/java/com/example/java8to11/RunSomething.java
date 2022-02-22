@@ -1,11 +1,6 @@
 package com.example.java8to11;
 
+@FunctionalInterface
 public interface RunSomething {
-    void doIt();
-    static void printName() {
-
-    }
-    default void printAge() {
-
-    }
+    void doIt(int number);
 }
